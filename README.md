@@ -9,31 +9,31 @@
    conda create --name air-quality-dashboard python=3.9
    
 2. Aktifkan Environment
-   '''bash
+   ```bash
    conda activate air-quality-dashboard
 
 4. Instal semua library yang dibutuhkan
-   '''bash
+   ```bash
    pip install -r requirements.txt
 
 ### 2. Menggunakan Shell/Terminal
 1. Buat direktori baru untuk proyek:
-   '''bash
+   ```bash
    mkdir proyek_analisis_data
-   '''bash
+   ```bash
    cd proyek_analisis_data
 
 3. Instal dan jalankan Pipenv:
-   '''bash
+   ```bash
    pipenv install
    pipenv shell
 
 5. Install semua library yang dibutuhkan:
-   '''bash
+   ```bash
    pip install -r requirements.txt
 
 ## Menjalankan Aplikasi Streamlit
-'''bash
+```bash
 streamlit run dashboard.py
 
 
