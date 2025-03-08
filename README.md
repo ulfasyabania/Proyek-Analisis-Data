@@ -20,7 +20,6 @@
 1. Buat direktori baru untuk proyek:
    ```bash
    mkdir proyek_analisis_data
-   ```bash
    cd proyek_analisis_data
 
 3. Instal dan jalankan Pipenv:
