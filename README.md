@@ -1,38 +1,34 @@
 # Proyek-Analisis-Data
-# Air Quality Data Analysis Dashboard
 
-### Setup Environment
+# Dashboard Kualitas Udara
 
-#### 1. Menggunakan Anaconda
-1. Buat environment baru dengan Anaconda:
-   ```bash
-   conda create --name air-quality-dashboard python=3.9
-   
-2. Aktifkan Environment
-   ```bash
-   conda activate air-quality-dashboard
+Dashboard ini bertujuan untuk memberikan visualisasi dan analisis data kualitas udara dari berbagai stasiun pemantauan di Beijing. Data yang digunakan mencakup parameter-parameter kualitas udara seperti PM2.5, PM10, SO2, NO2, CO, dan O3.
 
-4. Instal semua library yang dibutuhkan
-   ```bash
-   pip install -r requirements.txt
+## Fitur
 
-### 2. Menggunakan Shell/Terminal
-1. Buat direktori baru untuk proyek:
-   ```bash
-   mkdir proyek_analisis_data
-   cd proyek_analisis_data
+- Menampilkan statistik deskriptif untuk setiap stasiun pemantauan.
+- Visualisasi distribusi PM2.5 di setiap stasiun pemantauan.
+- Visualisasi tren PM2.5 dari waktu ke waktu.
+- Visualisasi matriks korelasi antar variabel kualitas udara.
+- Sidebar interaktif untuk memilih stasiun pemantauan.
 
-3. Instal dan jalankan Pipenv:
-   ```bash
-   pipenv install
-   pipenv shell
+## Prasyarat
 
-5. Install semua library yang dibutuhkan:
-   ```bash
-   pip install -r requirements.txt
+Pastikan telah menginstal library berikut sebelum menjalankan dashboard:
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `statsmodels`
+- `scikit-learn`
+- `streamlit`
 
-## Menjalankan Aplikasi Streamlit
+Anda dapat menginstalnya menggunakan pip:
+```bash
+pip install pandas matplotlib seaborn statsmodels scikit-learn streamlit
+
+## Menjalankan Dashboard Streamlit:
 ```bash
 streamlit run dashboard.py
 
+## Buka browser dan akses URL berikut:
 
