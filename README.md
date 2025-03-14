@@ -23,13 +23,16 @@ Pastikan telah menginstal library berikut sebelum menjalankan dashboard:
 - `streamlit`
 
 Anda dapat menginstalnya menggunakan pip:
-```bash
+```
 pip install pandas matplotlib seaborn statsmodels scikit-learn streamlit
+```
 
 Menjalankan Dashboard Streamlit:
-```bash
+```
 streamlit run dashboard.py
+```
 
 Buka browser dan akses URL berikut:
-```bash
+```
 https://ulfasyabania.streamlit.app/
+```
