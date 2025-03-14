@@ -32,3 +32,4 @@ streamlit run dashboard.py
 
 Buka browser dan akses URL berikut:
 ```bash
+https://ulfasyabania.streamlit.app/
